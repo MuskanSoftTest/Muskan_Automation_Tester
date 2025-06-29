@@ -1,0 +1,15 @@
+full_name = " MuSkaN riZvi "
+
+print("Actual name: " + full_name + " ===> " + full_name.upper() + " - Converts entire string to uppercase")
+print("Actual name: " + full_name + " ===> " + full_name.lower() + " - Converts entire string to lowercase")
+print("Actual name: " + full_name + " ===> " + full_name.capitalize() + " - Capitalizes the first character")
+print("Actual name: " + full_name + " ===> " + full_name.title() + " - Capitalizes the first letter of each word")
+print("Actual name: " + full_name + " ===> " + full_name.strip() + " - Removes whitespaces from start and end")
+print("Actual name: " + full_name + " ===> " + full_name.casefold() + " - Converts to lowercase (stronger than lower())")
+print("Actual name: " + full_name + " ===> " + full_name.center(50) + " - Centers the string in 30-character space")
+print("Actual name: " + full_name + " ===> '" + str(full_name.count('i')) + "' - Counts occurrences of 'i'")
+print("Actual name: " + full_name + " ===> '" + str(full_name.find('a')) + "' - Finds index of first occurrence of 'a'")
+print("Actual name: " + full_name + " ===> '" + str(full_name.index('r')) + "' - Gets index of 'r' (error if not found)")
+print("Actual name: " + full_name + " ===> " + "-".join(full_name.strip().split()) + " - Joins with '-' between words")
+print("Actual name: " + full_name + " ===> " + str(full_name.strip().split()) + " - Splits string into list of words")
+print("Actual name: " + full_name + " ===> '" + full_name.strip(' M') + "' - Removes 'M' or space from start/end")
